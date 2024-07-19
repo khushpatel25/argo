@@ -26,11 +26,7 @@ spec:
               value: "/khush_PV_dir"
           volumeMounts:
             - mountPath: /khush_PV_dir
-              name: persistent-volume
-      volumes:
-        - name: persistent-volume
-          persistentVolumeClaim:
-            claimName: k8s-assignment-pv-claim    
+              name: persistent-volume   
 ---
 apiVersion: v1
 kind: Service
