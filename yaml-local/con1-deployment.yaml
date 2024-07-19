@@ -26,9 +26,6 @@ spec:
               value: "/khush_PV_dir"
             - name: CONTAINER_2_ENDPOINT
               value: "http://con2-service:6000/parser"
-          volumeMounts:
-            - mountPath: /khush_PV_dir
-              name: persistent-volume
 ---
 apiVersion: v1
 kind: Service
