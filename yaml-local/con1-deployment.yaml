@@ -23,7 +23,7 @@ spec:
             - name: PORT
               value: "6000"
             - name: FILE_DIRECTORY
-              value: "/khush_PV_dir"
+              value: "/khush_PV_ir"
             - name: CONTAINER_2_ENDPOINT
               value: "http://con2-service:6000/parser"
 ---
